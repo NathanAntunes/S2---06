@@ -1,0 +1,86 @@
+body{font-family: 'IBM Plex Sans', sans-serif;
+     background-color: black;
+}
+.container{
+    display:flex;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;  
+}
+h1{color: #FFFFFF;
+}
+
+nav {
+     display: flex;
+}
+
+img:hover{cursor: pointer;
+        transform: scale(1.25);
+        transition:1s;
+}
+
+
+.perfil1{display: flex;
+         width: 160px;
+         height: 160px;
+         margin: 30px;
+         flex-direction: column;
+         align-items: center;
+         color: gray;
+                 
+}
+
+.perfil2{display: flex;
+        width: 160px;
+        height: 160px;
+        margin: 30px;
+        flex-direction: column;
+        align-items: center;
+        color: gray;
+        
+}
+
+.perfil3{display: flex;
+        width: 160px;
+        height: 160px;
+        margin: 30px;
+        flex-direction: column;
+        align-items: center;
+        color: gray;
+        
+}
+
+
+.perfil4{display: flex;
+        width: 160px;
+        height: 160px;
+        margin: 30px;
+        flex-direction: column;
+        align-items: center;
+        color: gray;
+        
+        
+}
+
+button{width: 206px;
+        height: 50px;
+        border: 1.5px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.05);
+        color: #FFFFFF;
+   
+        
+        
+}
+ button:hover{ transform: scale(1.15);
+               transition:1s;
+               cursor: pointer;
+        }
+
+.but{display: flex;
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        flex-direction: column-reverse;
+}
